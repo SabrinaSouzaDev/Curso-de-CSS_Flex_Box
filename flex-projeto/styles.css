@@ -251,4 +251,17 @@ footer .footer{
         width: 100%;
         margin-bottom: 20px;
     }
+    
+     header a li {
+        text-decoration: none;
+        justify-content: space-around;
+        justify-self: center;
+        margin-right: 10%;
+        margin: 5%;
+    }
+    header h1 {
+        font-size: 1.7rem;
+        justify-content: center;
+        display: flex;
+    }
 }
