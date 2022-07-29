@@ -252,7 +252,7 @@ footer .footer {
 
 /*mobile*/
 
-@media(max-width:692px) {
+@media(max-width:792px) {
     .flex-container {
         flex-direction: column;
     }
