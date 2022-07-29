@@ -274,7 +274,7 @@ footer .footer {
         flex-direction: column;
     }
     .item-servicos img {
-        width: 50%;
+        width: 40%;
         margin: auto;
     }
     .list-planos {
@@ -314,6 +314,5 @@ footer .footer {
     }
     header h1 {
         font-size: 1.7rem;
-        justify-content: center;
     }
 }
