@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+    <style>
+        .container {
+            height: 350px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        
+        .item {
+            background-color: orange;
+            padding: 0 5px;
+            margin: 10px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+        
+        .stretch {
+            align-content: stretch;
+        }
+        
+        .center {
+            align-content: center;
+        }
+        
+        .start {
+            align-content: flex-start;
+        }
+        
+        .end {
+            align-content: flex-end;
+        }
+        
+        .space-around {
+            align-content: space-around;
+        }
+        
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <p> Streach</p>
+    <div class="container stretch">
+        <div class="item">tem 01 it01 ittem 3</div>
+        <div class="item"> tem 01 item 01 01 item 01 i 01 item 01 i 01 item 01 iittem</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 fghggcchchchc01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">tem 01 it01 ittem 3</div>
+        <div class="item"> tem 01 item 01 01 item 01 i 01 item 01 i 01 item 01 iittem</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 01 item 01 01 item 01 i 01 item 01 i 01 i</div>
+    </div>
+
+    <p>Start</p>
+    <div class="container start">
+        <div class="item">tem 01 it01 ittem 3</div>
+        <div class="item"> tem 01 em</div>
+        <div class="item">tem 01 i 01 i 0101 i 01 i</div>
+        <div class="item">tem 01 cncngcncnncgitem 01 i 01 i</div>
+        <div class="item">tem 01 i</div>
+        <div class="item">tem 01 item 01 i 01 item 01 i 01 i</div>
+        <div class="item">tem 0i 01 i</div>
+    </div>
+    <p>end</p>
+    <div class="container end">
+        <div class="item">tem 01 3</div>
+        <div class="item"> tem 01</div>
+        <div class="item">tem 01 i i</div>
+        <div class="item">tem gfgdgdggdgd01 item i</div>
+        <div class="item">tem 01 item1 </div>
+        <div class="item">tem 01 it 01 i</div>
+        <div class="item">tem 01 i 01 i</div>
+    </div>
+
+    <p>Space-aroud</p>
+    <div class="container space-around">
+        <div class="item">tem 01 3</div>
+        <div class="item"> temdbefbgrbgkdgbfkgbkgbfkgbkghfbjgb 01</div>
+        <div class="item">tem 01 i i</div>
+        <div class="item">tem 01fgayfuvfuafufefgfyeafbyefbsfbfysbfybfue item i</div>
+        <div class="item">tem 01 item1 </div>
+        <div class="item">tem 01 it 01 i</div>
+        <div class="item">tem 01 i 01 i</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">tem 01sgdgdsgsgsgdsdsdg 3</div>
+        <div class="item"> temdbkghfbjgb 01</div>
+        <div class="item">tem 01 i i</div>
+        <div class="item">tem 01efbsfbfysbfybfue item i</div>
+        <div class="item">tem 01 item1 </div>
+        <div class="item">tem 01 it 01 i</div>
+        <div class="item">tem 01 i 01 i</div>
+    </div>
+</body>
+
+</html>
